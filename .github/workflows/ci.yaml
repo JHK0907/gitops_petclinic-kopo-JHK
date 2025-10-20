@@ -25,7 +25,7 @@ on:
       - '.github/workflows/**'
 
 env:
-  AWS_REGION: jhk-us-west-1
+  AWS_REGION: us-west-1
   ECR_REGISTRY: 897722691159.dkr.ecr.us-west-1.amazonaws.com
   ECR_REPOSITORY: jhk-cluster-repo
   IMAGE_TAG: ${{ github.sha }}
